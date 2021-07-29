@@ -40,7 +40,7 @@
       ===========================================================================================
       SELECT * FROM total_en_pageviews
       WHERE total_views > 10000
-      ORDER BY total_views DESC;
+      ORDER BY total_views DESC limit 20;
       ===========================================================================================
 ##  REFERENCE
       https://dumps.wikimedia.org/other/pageviews/2021/2021-01/
